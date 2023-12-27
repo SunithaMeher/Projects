@@ -1,2 +1,2 @@
 # Projects
-List of data analytics projects accomplished during my final year of undergraduation.
+Compilation of projects completed throughout my undergraduate tenure.
