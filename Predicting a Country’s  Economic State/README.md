@@ -6,7 +6,7 @@
 • This project primarily focuses on predicting a country’s economic condition by considering factors such as investments and capital stocks deployed by both governmental and private entities.
 
 # Dataset
-• This Project's dataset is acquired from IMF(international Monetary Fund<br/>
+• This Project's dataset is acquired from IMF(international Monetary Fund)<br/>
 
 • Furthermore, this dataset comprises of 14 features intended for predicting a country's classification into a low, emerging, or advanced economy category based on various statistical indicators.<br/>
 
@@ -21,7 +21,18 @@ Data Cleaning
 Data Preparation 
 One-hot-encoding: One Hot Encoding is used to convert numerical categorical variables into binary vectors.
 Build Predictive Model
-# Selection of algorithms
+# Selection of algorithms:
+
+```mermaid
+graph TD;
+   A[Classifier Model]-->B[Linear Model];
+    A-->C[Non-Linear Model];
+    B-->D[Logistic Regression];
+    B-->E[Naïve Bayes Classifier];
+    C-->F[K-Nearest Neighbours];
+    C-->G[Random Forest Classifier];
+```
+  
 Validating the algorithm
 # Deployment
 After validating model with the best accuracy score amongst the ML models, we deploy the model using a python library called pickle.
